@@ -1,0 +1,80 @@
+body {
+    background-color: gold;
+    
+}
+
+.btn_load {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: chocolate; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 15px 30px; /* Espaciado interno */
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn_load:hover {
+    background-color: darkred; /* Cambio de color al pasar el ratón */
+}
+
+.btn_show {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #4169E1; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 15px 30px; /* Espaciado interno */
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn_show:hover {
+    background-color: magenta; /* Cambio de color al pasar el ratón */
+}
+.dates-container {
+    border: 4px solid black ;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 30%; 
+    max-height: 310px; /*Definir una altura máxima para los contenedores */
+    overflow: auto; /*Agregar desplazamiento si el contenido excede la altura máxima */
+    margin: 20px 10px 10px 0px;
+}
+
+.id-date {
+    font-size: 18px;
+    text-align: center;
+}
+
+.title-date {
+    font-size: 21px;
+    text-align: center;
+}
+
+.img-container {
+    border-radius: 25%;
+    width: 45%;
+}
+
+.description-container {
+    text-align: justify;
+}
+
+.class-list {
+    text-align: justify;
+}
+
+#contenedor_eventos {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
