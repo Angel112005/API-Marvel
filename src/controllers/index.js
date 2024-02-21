@@ -5,7 +5,7 @@ import { listEvent } from "./dependencies.js";
 let api = document.getElementById("btn-api");
 api.addEventListener("click", async function () {
   let url =
-    "http://gateway.marvel.com/v1/public/events?ts=1000&apikey=bd04fc4819920ed0329740552bcd0d6b&hash=9f64d17e8accbb7b3644af997b8811e3";
+    "https://gateway.marvel.com/v1/public/events?ts=1000&apikey=bd04fc4819920ed0329740552bcd0d6b&hash=9f64d17e8accbb7b3644af997b8811e3";
   await fetch(url)
     // Convertir una Promesa a formato Json
     .then((response) => response.json())
